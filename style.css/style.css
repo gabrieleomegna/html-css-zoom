@@ -1,0 +1,40 @@
+/* RESET  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.border-test {
+    border: 1px dashed white;
+}
+/* HEADER LAYOUT*/  
+header {
+    background-color: black;
+    height: 8vh;
+    display: flex;
+    justify-content: end;
+}
+#header-section button {
+    color: white;
+    background-color:rgb(74, 74, 74) ;
+    padding: .5rem;
+    margin-top: .5rem;
+    border-radius: 10px;
+}
+
+
+
+/* MAIN LAYOUT */
+main {
+    height: 80vh;
+    background-color: black;
+}
+
+
+
+
+/* FOOTER LAYOUT*/
+footer {
+    background-color: black;
+    height: 12vh;
+}
