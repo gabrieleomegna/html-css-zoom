@@ -73,6 +73,7 @@ footer > * {
 .padding-button-footer {
     padding: .7rem .7rem .4rem;
 }
+/* Section and nav user function */
 .icon-and-description {
     text-align: center;
     height: 100%;
@@ -110,7 +111,15 @@ div.arrow span {
 #green-share {
     color: rgb(75, 200, 0);
 }
-
+/* Last section end meeting  */
+#end-meeting {
+    background-color: rgb(74, 74, 74);
+    color: red;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
