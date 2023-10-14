@@ -26,7 +26,7 @@ header {
 
 /* MAIN LAYOUT */
 main {
-    height: 80vh;
+    height: 82vh;
     background-color: black;
 }
 #main-container {
@@ -59,6 +59,55 @@ div.user-mute {
 
 /* FOOTER LAYOUT*/
 footer {
-    background-color: black;
-    height: 12vh;
+    background-color: #222222;
+    height: 10vh;
 }
+.display-flex-footer {
+    display: flex;
+    justify-content: space-between;
+}
+footer > * {
+    height: 100%;
+    color: white;
+}
+.padding-button-footer {
+    padding: .7rem .7rem .4rem;
+}
+.icon-and-description {
+    text-align: center;
+    height: 100%;
+}
+.icon{
+    font-size: 1.5rem;
+}
+.button-description{
+    font-size: .8rem;
+    margin-top: .25rem;
+}
+.display-flex-footer-button {
+    display: flex;
+    flex-direction: column;
+}
+.user-function > * {
+    height: 100%;
+    float: left;
+}
+.clearfix ::after {
+    content: "";
+    display: block;
+    clear: both;   
+}
+div.arrow {
+    position: relative;
+    font-size: .8rem;
+}
+div.arrow span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+
